@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulátor</title>
+    <link rel="stylesheet" href="iratkozzki.css">
+</head>
+<body>
+    <div class="szia">
+        <label for="brutto">Bruttó*:</label>
+        <label for="netto">Nettó</label>
+        <input type="number" id="brutto" name="btto" placeholder="Pl.:489.923 FT">
+        <span class="forint">FT</span>
+        <button type="button" class="gomb">Számolás</button>
+        <input type="number" name="ntto" id="netto" readonly>
+        <label for="csillag">*27% van számolva</label>
+        <label class="szjaszoveg">SZJA kedvezmény
+            <input type="checkbox">
+            <span class="szja"></span>
+        </label>
+    </div>
+    <!--hirdetés helye:
+    <div class="hirdetes1">
+        <a href="https://www.mbhbank.hu/"><img src="mbh.png" alt="hirdetes"></a>
+    </div>-->
+    
+
+    <script>
+        const button = document.querySelector(".gomb");
+        const brutto = document.getElementById("brutto");
+        const netto = document.getElementById("netto");
+        const szjaCheck = document.querySelector("input[type='checkbox']");
+
+    button.addEventListener("click", () => {
+        const bruttoValue = parseFloat(brutto.value);
+
+        if (isNaN(bruttoValue)) return;
+
+        if (szjaCheck.checked) {
+
+            if (bruttoValue <=  576601) {
+                netto.value = (bruttoValue * 0.815).toFixed(2);
+            } else {
+                netto.value = (bruttoValue * 0.76).toFixed(2);
+            }
+
+        } else {
+            netto.value = (bruttoValue * 0.665).toFixed(2);
+        }
+        
+        
+    });
+        
+    </script>
+</body>
+</html>
