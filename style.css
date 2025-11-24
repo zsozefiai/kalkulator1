@@ -143,8 +143,8 @@ body{
             position: absolute;
             right: 10px;
             top: 50%;
-            transform: translateY(-50%);
-            color: #444;
+            transform: translate(-200px, -90px);
+            color: #4e4c4c;
             pointer-events: none;
             font-weight: bold;
         }
