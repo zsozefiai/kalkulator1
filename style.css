@@ -148,3 +148,12 @@ body{
             pointer-events: none;
             font-weight: bold;
         }
+        label[for="torveny"]{
+           position: absolute;
+            color: white;
+            top: 460px;
+            left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px; 
+        }
+        
