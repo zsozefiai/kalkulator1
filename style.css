@@ -1,5 +1,5 @@
 body{
-            background-image: url(kuki.jpg);
+            background-image: url(hatter.jpg);
             background-repeat: no-repeat;
         }
         .szia{
@@ -32,7 +32,7 @@ body{
             border: 1px solid #619ef3;
             border-radius: 9px;
             box-sizing: border-box;   
-            transform: translate(-45px, -145px);
+            transform: translate(-45px, -135px);
             background-color: #cde2ff;
         }
         .gomb{
@@ -43,7 +43,7 @@ body{
             font-family:sans-serif;
             font-size: 15px;
             font-weight: 500;
-            transform: translate(-50px, -135px);
+            transform: translate(-50px, -130px);
             color: white;
         }
         label[for="netto"]{
@@ -60,7 +60,7 @@ body{
             border-radius: 9px;
             border: 1px solid #619ef3;
             padding: 9px;
-            transform: translate(-42px, -85px);
+            transform: translate(-42px, -75px);
         }
         label[for="csillag"]{
             position: absolute;
@@ -134,20 +134,12 @@ body{
         }
         .hirdetes1 img{
             position: absolute;
-            transform: translate(1300px, 100px);
-            height: 400px;
-            width: 200px;
+            transform: translate(1500px, 300px);
+            height: 300px;
+            width: 300px;
             
         }
-        .szia .forint{
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translate(-200px, -90px);
-            color: #4e4c4c;
-            pointer-events: none;
-            font-weight: bold;
-        }
+        
         label[for="torveny"]{
            position: absolute;
             color: white;
@@ -218,3 +210,4 @@ body{
             -ms-transform: rotate(45deg);
             transform: rotate(45deg);
         }
+        
