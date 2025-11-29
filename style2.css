@@ -20,3 +20,7 @@
     transform: translate(500px, 450px);  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.vissza{
+    position: absolute;
+    transform: translate(0px, 700px);
+}
