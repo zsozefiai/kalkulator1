@@ -145,6 +145,15 @@ body{
             width: 300px;
             
         }
+        @media (max-width: 768px) {
+            .hirdetes1{
+                position: absolute;
+            top: 200px;
+            right: 20px;
+            height: 300px;
+            width: 300px;
+            }
+        }
         
         label[for="torveny"]{
            position: absolute;
