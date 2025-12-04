@@ -139,7 +139,8 @@ body{
         }
         .hirdetes1 img{
             position: absolute;
-            transform: translate(500px, 300px);
+            top: 200px;
+            right: 20px;
             height: 300px;
             width: 300px;
             
