@@ -147,11 +147,10 @@ body{
         }
         @media (max-width: 768px) {
             .hirdetes1{
-                position: absolute;
-            top: 200px;
-            right: 20px;
-            height: 300px;
-            width: 300px;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 150px;
             }
         }
         
